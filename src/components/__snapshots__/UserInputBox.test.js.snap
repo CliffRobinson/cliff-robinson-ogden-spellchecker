@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`userinputbox render 1`] = `
+<UserInputBox
+  userInputString="Luke, I am your father."
+>
+  <input
+    onChange={[Function]}
+    type="text"
+    value="Luke, I am your father."
+  />
+</UserInputBox>
+`;

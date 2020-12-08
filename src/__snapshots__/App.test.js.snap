@@ -1,3 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`app render 1`] = `ShallowWrapper {}`;
+exports[`app render 1`] = `
+<div
+  className="App"
+>
+  <h3>
+    Ogden's Simplified Spellchecker!
+  </h3>
+  <UserInputBox
+    setUserInputString={[Function]}
+    userInputString="initial string"
+  />
+  <input
+    disabled={true}
+    type="text"
+    value="initial string"
+  />
+</div>
+`;

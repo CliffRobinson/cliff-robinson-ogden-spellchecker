@@ -1,6 +1,7 @@
 import {useState} from 'react'
 
 import './App.css';
+import {UserInputBox} from './components/UserInputBox'
 
 //CFR Comment 1: The app as described has no need to access a backend, 
 //I'd like to have a browser GUI if possible, and React is my framework of choice,
@@ -19,7 +20,10 @@ function App() {
   return (
     <div className="App">
       <h3>Ogden's Simplified Spellchecker!</h3>
-      <input type='text' value={userInputString}></input>
+      {<UserInputBox 
+        userInputString={userInputString}
+        setUserInputString={setUserInputString}
+      />}
       <input type='text' value={userInputString} disabled={true}></input>
     </div>
   );
