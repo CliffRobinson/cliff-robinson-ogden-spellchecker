@@ -17,7 +17,7 @@ import {checkSentence} from './checkerFunctions'
 // going to be breaking out the user input box into a component.
 function App() {
 
-  const [userInputString, setUserInputString] = useState("initial string")
+  const [userInputString, setUserInputString] = useState("it is hard to make good sentences with this dictionary")
 
   return (
     <div className="App">

@@ -9,18 +9,50 @@ exports[`app render 1`] = `
   </h3>
   <UserInputBox
     setUserInputString={[Function]}
-    userInputString="initial string"
+    userInputString="it is hard to make good sentences with this dictionary"
   />
   <OutputBox
     wordArray={
       Array [
         Object {
           "spelling": undefined,
-          "word": "initial",
+          "word": "it",
         },
         Object {
           "spelling": undefined,
-          "word": "string",
+          "word": "is",
+        },
+        Object {
+          "spelling": true,
+          "word": "hard",
+        },
+        Object {
+          "spelling": true,
+          "word": "to",
+        },
+        Object {
+          "spelling": true,
+          "word": "make",
+        },
+        Object {
+          "spelling": true,
+          "word": "good",
+        },
+        Object {
+          "spelling": undefined,
+          "word": "sentences",
+        },
+        Object {
+          "spelling": true,
+          "word": "with",
+        },
+        Object {
+          "spelling": true,
+          "word": "this",
+        },
+        Object {
+          "spelling": undefined,
+          "word": "dictionary",
         },
       ]
     }
