@@ -11,10 +11,19 @@ exports[`app render 1`] = `
     setUserInputString={[Function]}
     userInputString="initial string"
   />
-  <input
-    disabled={true}
-    type="text"
-    value="initial string"
+  <OutputBox
+    wordArray={
+      Array [
+        Object {
+          "spelling": undefined,
+          "word": "initial",
+        },
+        Object {
+          "spelling": undefined,
+          "word": "string",
+        },
+      ]
+    }
   />
 </div>
 `;

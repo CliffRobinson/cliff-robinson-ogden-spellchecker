@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`userinputbox render 1`] = `
+<OutputBox
+  wordArray={
+    Array [
+      Object {
+        "spelling": true,
+        "word": "A",
+      },
+      Object {
+        "spelling": undefined,
+        "word": "wizard",
+      },
+      Object {
+        "spelling": undefined,
+        "word": "is",
+      },
+      Object {
+        "spelling": undefined,
+        "word": "never",
+      },
+      Object {
+        "spelling": true,
+        "word": "late,",
+      },
+      Object {
+        "spelling": undefined,
+        "word": "nor",
+      },
+      Object {
+        "spelling": undefined,
+        "word": "is",
+      },
+      Object {
+        "spelling": true,
+        "word": "he",
+      },
+      Object {
+        "spelling": true,
+        "word": "early,",
+      },
+    ]
+  }
+>
+  <div>
+    <span
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+    >
+      A
+       
+    </span>
+    <span
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      wizard
+       
+    </span>
+    <span
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      is
+       
+    </span>
+    <span
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      never
+       
+    </span>
+    <span
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+    >
+      late,
+       
+    </span>
+    <span
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      nor
+       
+    </span>
+    <span
+      style={
+        Object {
+          "color": "red",
+        }
+      }
+    >
+      is
+       
+    </span>
+    <span
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+    >
+      he
+       
+    </span>
+    <span
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+    >
+      early,
+       
+    </span>
+  </div>
+</OutputBox>
+`;
